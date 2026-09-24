@@ -19,6 +19,7 @@ export default function DiamondContainer() {
         productName="Ice Lake"
         price="$1,780"
       />
+      <DiamondCard />
     </div>
   );
 }

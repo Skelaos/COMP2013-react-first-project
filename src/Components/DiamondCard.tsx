@@ -1,13 +1,13 @@
 interface DiamondCardProps {
-  image: string;
-  productName: string;
-  price: string;
+  image?: string;
+  productName?: string;
+  price?: string;
   sale?: boolean;
 }
 
 export default function DiamondCard({
   image,
-  productName,
+  productName = "Product Not Found",
   price,
   sale,
 }: DiamondCardProps) {
