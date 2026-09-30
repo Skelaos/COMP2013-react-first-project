@@ -1,13 +1,8 @@
-interface DiamondCardProps {
-  image?: string;
-  productName?: string;
-  price?: string;
-  sale?: boolean;
-}
+import type { DiamondCardProps } from "../data/data";
 
 export default function DiamondCard({
   image,
-  productName = "Product Not Found",
+  productName,
   price,
   sale,
 }: DiamondCardProps) {
